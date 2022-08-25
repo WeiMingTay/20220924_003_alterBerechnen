@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lev1_2 Berechnung des Alters</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <form action="" onsubmit="return false">
+            <article>
+                <label for="name">Name</label>
+                <input onchange="showName()" type="text" id="name">
+            </article>
+            <article>
+                <label for="birthday2">Geburtsjahr</label>
+                <input onchange="showBirthyear()" type="number" id="birthday2">
+                <!-- <label for="birthday">Geburtstag</label>
+                <input onchange="showAge()" type="date" id="birthday"> -->
+                </article>
+            <button onclick="berechneAlter()">Klickedi Klick</button>
+        </form>
+    </section>
+    <section>
+        <p>Name: <span id="vorname"></span></p>
+        <p>Geburtsjahr: <span id="geburtsJahr"></span></p>
+        <!-- <p>Geburtstag: <span id="geburtsTag"></span></p> -->
+        <p>Alter: <span id="alter"></span></p>
+        <!-- <p>Alter2: <span id="alter2"></span></p> -->
+    </section>
+    <section>
+        <p>Aktuelles Jahr: <span id="todayJahr"></span></p>
+        <p>Aktueller Tag: <span id="todayTag"></span></p>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
