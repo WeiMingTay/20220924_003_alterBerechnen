@@ -1,7 +1,7 @@
 # 20220924_003_alterBerechnen
 superCode
 
-Link zur Seite:
+Link zur Seite: https://weimingtay.github.io/20220924_003_alterBerechnen/
 
 Aufgabenstellung
 
